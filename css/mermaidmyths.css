@@ -1,0 +1,92 @@
+/* layout debug */
+/*table, th, td {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+.disclaimer-container {
+    margin-top: 500px;
+    max-width: 600px;
+}
+
+.sidenav {
+    height: 1700px;
+    background-color: #9370DB;
+    overflow-x: hidden;
+    left: 0px
+    position: absolute;
+    top: 76px;
+    width: 180px;
+    bottom: 0px;
+    font-size: 11pt;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    color: #FAFAD2;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    display: block;
+    background-image: url("images/starfish-break-white.gif")
+}
+
+.sidenav a:hover {
+
+}
+
+.sidenav img {
+    text-align: center;
+}
+
+.main {
+    margin-left: 180px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 140px;
+    background-image: url("images/background.png");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+}
+
+
+.header {
+    width: 100%;
+    background-color: dodgerblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and header */
+}
+
+.subhead {
+    background-image: linear-gradient(to right, yellow, lawngreen, deepskyblue, blue);
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+td.imagecontainer {
+    text-align: center;
+    vertical-align: top;
+}
+
+.section-body {
+    margin-left: 48px;
+    font-family: Arial, sans-serif;
+    font-size: 10.75pt;
+}
